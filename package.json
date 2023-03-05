@@ -2,4 +2,9 @@
   "dependencies": {
     "react-icons": "^4.7.1"
   }
+  "homepage": "https://yiroug.github.io/memoapp",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  ...
 }
